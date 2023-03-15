@@ -4,19 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="style.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
-  
+
   <title>Frontend Mentor | Stats preview card component</title>
 
 </head>
 <body>
   <main>
     <div class="card-container">
-      <img class="inner-hero-img" src="images\image-header-mobile.jpg" alt="group of females working in an office">
+      <img class="inner-hero-img-mobile" src="images\image-header-mobile.jpg" alt="group of females working in an office">
+      <img class="inner-hero-img-desktop" src="images\image-header-desktop.jpg" alt="group of females working in an office">
+
       <div class="inner-title">
-        <h1>Get insights that help your business grow.</h1>
+        <h1>Get <span class="purple-text">insights</span> that help your business grow.</h1>
       </div>
       <div class="inner-description-text">
         <p>
@@ -25,9 +29,18 @@
         </p>
       </div>
       <div class="inner-stats-wrapper">
-        10k+ companies
-        314 templates
-        12m+ queries
+        <div class="stat-item-container">
+          <div class="stat-number">10k+</div>
+          <div class="stat-text">companies</div>
+        </div>
+        <div class="stat-item-container">
+          <div class="stat-number">314</div>
+          <div class="stat-text">templates</div>
+        </div>
+        <div class="stat-item-container">
+          <div class="stat-number">12m+</div>
+          <div class="stat-text">queries</div>
+        </div>
       </div>
   </div>
   </main>
