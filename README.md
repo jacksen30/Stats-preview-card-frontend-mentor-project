@@ -12,7 +12,7 @@ This is my personal solution to the [Stats preview card component challenge on F
 
 ### Screenshot
 ##### Desktop View - Below
-![Desktop Screenshot](./images/desktop-submission-1.JPGp.JPG)
+![Desktop Screenshot](./images/desktop-submission-1.JPG)
 
 ##### Mobile View - Below
 ![Mobile Screenshot](./images/mobile-submission-1.JPG)
