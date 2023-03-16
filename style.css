@@ -14,7 +14,7 @@ body {
 }
 
 .card-container {
-    border: 1px solid red;
+   /* border: 1px solid red; */
     max-width: 340px;
     background-color: hsl(244, 38%, 16%);
     color: white;
@@ -62,4 +62,78 @@ body {
     font-size: 0.9rem;
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+@media screen and (min-width: 900px) {
+    
+    .card-container {
+        max-width: 900px;
+        max-height: 350px;
+        background-color: hsl(244, 38%, 16%);
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .inner-title h1 {
+        font-size: 2.1rem;
+    }
+
+    .image-container {
+        width: 50%;
+        float: right;
+        max-height: 310px;
+    }
+
+    .inner-hero-img-mobile {
+        display: none;    
+    }
+    
+    .inner-hero-img-desktop {
+        display:inline; 
+        background-size:cover;   
+    }
+
+    .left-side-inner-container {
+        width: 50%;
+        padding: 15px 45px 30px 15px;
+        text-align: left;
+    }
+
+    .inner-description-text {
+        margin: 20px 20px 30px 20px;
+        font-size: 0.9rem;
+    }
+
+    .inner-stats-wrapper {
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+
+    .stat-item-container {
+        margin: 20px 30px 20px 30px;
+}
+
+    .stat-item-1 {
+        margin-right: 0px;
+    }
+
+    .stat-item-2 {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .stat-item-3 {
+        margin-left: 0px;
+    }
+
+    .stat-number {
+        font-size: 1.35rem;
+    }
+    
+    .stat-text {
+        font-size: 0.8rem;
+    }
 }
