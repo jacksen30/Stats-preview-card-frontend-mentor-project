@@ -25,10 +25,20 @@ body {
 
 .inner-hero-img-mobile {
     width: 100%;
+
 }
 
 .inner-hero-img-desktop {
     display: none;
+}
+.purple-filter {
+    position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(81, 19, 120, 0.6);
+    z-index: 2;
 }
 
 .inner-title {
@@ -68,8 +78,8 @@ body {
 @media screen and (min-width: 900px) {
     
     .card-container {
-        max-width: 900px;
-        max-height: 350px;
+        max-width: 1000px;
+        max-height: 450px;
         background-color: hsl(244, 38%, 16%);
         color: white;
         text-align: center;
@@ -79,6 +89,8 @@ body {
 
     .inner-title h1 {
         font-size: 2.1rem;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 
     .image-container {
@@ -92,8 +104,9 @@ body {
     }
     
     .inner-hero-img-desktop {
-        display:inline; 
-        background-size:cover;   
+        display: inline; 
+        background-size: cover;
+        mix-blend-mode: inherit; /* needs to be sorted this out */
     }
 
     .left-side-inner-container {
@@ -103,17 +116,18 @@ body {
     }
 
     .inner-description-text {
-        margin: 20px 20px 30px 20px;
+        margin: 20px 40px 30px 20px;
         font-size: 0.9rem;
     }
 
     .inner-stats-wrapper {
         display: inline-flex;
         justify-content: space-evenly;
+        margin-bottom: 25px;
     }
 
     .stat-item-container {
-        margin: 20px 30px 20px 30px;
+        margin: 30px 30px 20px 30px;
 }
 
     .stat-item-1 {
